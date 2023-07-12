@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraGeek</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Assets/CSS/base.css">
+        <link rel="stylesheet" href="/Assets/CSS/cabecera.css">
+        <link rel="stylesheet" href="/Assets/CSS/banner.css">
+    </head>
+    <body>
+        <section class="cabecera container">
+            <header class="cabecera__header">
+                <div class="cabecera__logo">
+                    <img src="/Assets/Img/Logo_Alura.svg" alt="Logo AluraGeek" class="logo__mando">
+                    <img src="/Assets/Img/texto_logo.svg" alt="Texto AluraGeek" class="logo__texto">
+                </div>
+                <input class="Busqueda__input" placeholder="¿Qué deseas buscar?">
+                <img src="/Assets/Img/icono_lupa.svg" alt="Icono Lupa" class="busqueda__logo">
+                <button type="submit" class="Login__boton">Login</button>
+            </header>
+        </section>
+        <section class="banner container">
+            <div class="informacion_oferta">
+            <h2 class="banner__titulo">Ofertas de Verano</h2>
+            <p class="ofertas__descripcion">Productos selecionados con 33% de descuento.</p>
+            <button type="submit" id="Oferta" class="Ver__oferta">Ver consolas</button>
+            </div>
+        </section>
+        <section class="Productos container">
+            <h2 class="Titulo_categoria">Star Wars</h2>
+            <a class="Ver_boton" href="#">Ver todo</a>
+            <img src="/Assets/Img/flecha_busqueda.png" alt="Icono Flecha" class="icono__flecha">
+                <div class="Productos__categoria">
+                    <ul>
+                        <li>
+                            <img src="/Assets/Img/producto_starwars.png" class="Productos" alt="Imagen de producto"/>
+                            <li class="Nombre__producto">Taza de Star Wars</li>
+                            <li class="Precio__producto">$500</li>
+                            <a class="Ver__producto" href="#">Ver producto</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section class="Productos container">
+            <h2 class="Titulo_categoria">Consolas</h2>
+            <a class="Ver_boton" href="#">Ver todo</a>
+            <img src="/Assets/Img/flecha_busqueda.png" alt="Icono Flecha" class="icono__flecha">
+            <div class="Productos__categoria">
+                <ul>
+                    <li>
+                        <img src="/Assets/Img/producto_control.png" class="Productos" alt="Imagen de producto"/>
+                        <li class="Nombre__producto">Control Xbox</li>
+                        <li class="Precio__producto">$500</li>
+                        <a class="Ver__producto" href="#">Ver producto</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="Productos container">
+            <h2 class="Titulo_categoria">Diversos</h2>
+            <a class="Ver_boton" href="#">Ver todo</a>
+            <img src="/Assets/Img/flecha_busqueda.png" alt="Icono Flecha" class="icono__flecha">
+            <div class="Productos__categoria">
+                <ul>
+                    <li>
+                        <img src="/Assets/Img/Producto_camisa.png" class="Productos" alt="Imagen de producto"/>
+                        <li class="Nombre__producto">Camisa Atari</li>
+                        <li class="Precio__producto">$500</li>
+                        <a class="Ver__producto" href="#">Ver producto</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="Contacto container">
+            <img src="/Assets/Img/Logo_alura.png" alt="Logo AluraGeek" class="Logo__contacto">
+            <ul>
+                <li>Quienes somos</li>
+                <li>Política de privacidad</li>
+                <li>Programa de fidelidad</li>
+                <li>Nuestras Tiendas</li>
+                <li>Quiero ser franquiciado</li>
+                <li>Anúncie aquí</li>
+            </ul>
+            <div>
+                <h3>Hable con nosotros</h3>
+                <input type="text" class="nombre__form" placeholder="Nombre" required>
+                <textarea name="mensaje" class="Mensaje__contacto" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                <button class="Enviar__mensaje">Enviar mensaje</button>
+            </div>
+        </section>
+        <footer>
+            <section class="footer container">
+                <div class="footer_rodapie">
+                    <p>Desarrollado por José Manuel Mora del Carmen</p>
+                    <p>2023</p>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

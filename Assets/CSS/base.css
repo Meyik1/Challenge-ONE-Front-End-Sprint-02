@@ -1,0 +1,15 @@
+:root {
+    --variable: valor;
+    --Raleway: "Raleway", sans-serif;
+    --borde-azul: #2A7AE4;
+}
+
+body{
+    font-family: var(--Raleway);
+}
+
+
+/* 576px para teléfonos móviles
+768px para las tabletas
+992px para portátiles
+1200px para los grandes dispositivos

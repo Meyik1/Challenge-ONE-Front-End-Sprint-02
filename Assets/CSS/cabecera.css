@@ -1,0 +1,46 @@
+.cabecera{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.cabecera__logo{
+    display: flex;
+}
+
+.logo__mando{
+    width: 50px;
+}
+
+.logo__texto{
+    width: 110px;
+}
+
+.cabecera__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.Busqueda__input{
+    display: none;
+}
+
+.busqueda__logo{
+    order: 1;
+}
+
+.Login__boton{
+    border: 2px solid var(--borde-azul);
+    display: flex;
+    width: 11rem;
+    height: 3.3rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--borde-azul);
+    background: none;
+    font-size: 1.3rem;
+}
+
+.busqueda__logo{
+    width: 35px;
+}
