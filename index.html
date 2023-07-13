@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="Assets/CSS/cabecera.css">
         <link rel="stylesheet" href="Assets/CSS/banner.css">
         <link rel="stylesheet" href="Assets/CSS/Productos.css">
+        <link rel="stylesheet" href="Assets/CSS/Contacto.css">
     </head>
     <body>
         <section class="cabecera container">
@@ -89,17 +90,22 @@
                 </ul>
             </div>
         </section>
-        <section class="Contacto container">
-            <img src="Assets/Img/Logo_Alura.svg" alt="Logo AluraGeek" class="Logo__contacto">
-            <ul>
-                <li>Quienes somos</li>
-                <li>Política de privacidad</li>
-                <li>Programa de fidelidad</li>
-                <li>Nuestras Tiendas</li>
-                <li>Quiero ser franquiciado</li>
-                <li>Anúncie aquí</li>
-            </ul>
-            <div>
+        <section class="Contacto">
+            <div class="datos__contacto">
+                <div class="contacto__logo">
+                    <img src="Assets/Img/Logo_Alura.svg" alt="Logo AluraGeek" class="Logo__mandocontacto">
+                    <img src="Assets/Img/texto_logo.svg" alt="Texto AluraGeek" class="logo__textocontacto">
+                </div>
+                <ul>
+                    <li class="datos__contactoli">Quienes somos</li>
+                    <li class="datos__contactoli">Política de privacidad</li>
+                    <li class="datos__contactoli">Programa de fidelidad</li>
+                    <li class="datos__contactoli">Nuestras Tiendas</li>
+                    <li class="datos__contactoli">Quiero ser franquiciado</li>
+                    <li class="datos__contactoli">Anúncie aquí</li>
+                </ul>
+            </div>
+            <div class="contacto__form">
                 <h3>Hable con nosotros</h3>
                 <input type="text" class="nombre__form" placeholder="Nombre" required>
                 <textarea name="mensaje" class="Mensaje__contacto" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
