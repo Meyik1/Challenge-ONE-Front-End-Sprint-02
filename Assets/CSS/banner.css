@@ -1,5 +1,6 @@
-.banner{
-    background: url(/Assets/Img/banner.jpg) no-repeat center / cover;
+.img__banner{
+    object-fit: cover;
+    filter: blur(.9px);
     width: 100%;
     height: 19rem;
 }
