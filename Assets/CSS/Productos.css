@@ -1,0 +1,31 @@
+.Productos{
+    margin: 2rem 0 0 1rem;
+}
+
+.Titulo_categoria{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-fuente);
+}
+
+.Categoria{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ver_boton{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 0 0;
+    color: var(--color-azul);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.Vertodo_boton{
+    margin: 0 .5rem 0 0;
+}
+
+.Img__producto{
+    display: flex;
+}

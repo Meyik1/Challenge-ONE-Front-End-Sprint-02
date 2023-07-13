@@ -1,7 +1,8 @@
 :root {
     --variable: valor;
     --Raleway: "Raleway", sans-serif;
-    --borde-azul: #2A7AE4;
+    --color-azul: #2A7AE4;
+    --color-fuente: #464646;
 }
 
 body{

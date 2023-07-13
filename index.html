@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="Assets/CSS/base.css">
         <link rel="stylesheet" href="Assets/CSS/cabecera.css">
         <link rel="stylesheet" href="Assets/CSS/banner.css">
+        <link rel="stylesheet" href="Assets/CSS/Productos.css">
     </head>
     <body>
         <section class="cabecera container">
@@ -32,19 +33,23 @@
                 </div>
         </section>
         <section class="Productos container">
-            <h2 class="Titulo_categoria">Star Wars</h2>
-            <a class="Ver_boton" href="#">Ver todo</a>
-            <img src="Assets/Img/flecha_busqueda.png" alt="Icono Flecha" class="icono__flecha">
-                <div class="Productos__categoria">
-                    <ul>
-                        <li>
-                            <img src="Assets/Img/producto_starwars.png" class="Productos" alt="Imagen de producto"/>
-                            <li class="Nombre__producto">Taza de Star Wars</li>
-                            <li class="Precio__producto">$500</li>
-                            <a class="Ver__producto" href="#">Ver producto</a>
-                        </li>
-                    </ul>
+            <div class="Categoria">
+                <h2 class="Titulo_categoria">Star Wars</h2>
+                <div class="Ver_boton">
+                    <a class="Vertodo_boton" href="#">Ver todo</a>
+                    <img src="Assets/Img/flecha_busqueda.png" alt="Icono Flecha" class="icono__flecha">
                 </div>
+            </div>
+            <div>
+                <ul class="Productos__categoria">
+                    <li>
+                        <img src="Assets/Img/producto_starwars.png" class="Img__producto" alt="Imagen de producto"/>
+                        <li class="Nombre__producto">Taza de Star Wars</li>
+                        <li class="Precio__producto">$500</li>
+                        <a class="Ver__producto" href="#">Ver producto</a>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="Productos container">
             <h2 class="Titulo_categoria">Consolas</h2>
@@ -62,9 +67,11 @@
             </div>
         </section>
         <section class="Productos container">
-            <h2 class="Titulo_categoria">Diversos</h2>
-            <a class="Ver_boton" href="#">Ver todo</a>
-            <img src="Assets/Img/flecha_busqueda.png" alt="Icono Flecha" class="icono__flecha">
+            <div class="Categoria">
+                <h2 class="Titulo_categoria">Diversos</h2>
+                <a class="Ver_boton" href="#">Ver todo</a>
+                <img src="Assets/Img/flecha_busqueda.png" alt="Icono Flecha" class="icono__flecha">
+            </div>
             <div class="Productos__categoria">
                 <ul>
                     <li>

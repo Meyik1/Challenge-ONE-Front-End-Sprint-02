@@ -30,13 +30,13 @@
 }
 
 .Login__boton{
-    border: 2px solid var(--borde-azul);
+    border: 2px solid var(--color-azul);
     display: flex;
     width: 11rem;
     height: 3.3rem;
     justify-content: center;
     align-items: center;
-    color: var(--borde-azul);
+    color: var(--color-azul);
     background: none;
     font-size: 1.3rem;
 }
