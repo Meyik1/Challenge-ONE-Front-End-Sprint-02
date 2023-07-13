@@ -1,21 +1,19 @@
-.img__banner{
-    object-fit: cover;
-    filter: blur(.9px);
+.banner{
+    background: url(/Assets/Img/banner.jpg) no-repeat center / cover;
     width: 100%;
-    height: 19rem;
+    height: 17rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
 }
 
-.informacion_oferta{
-    position: absolute;
-    bottom: 30%;
-}
 
 .banner__titulo{
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
     font-size: 2.5rem;
     font-weight: bold;
-    margin: 1rem .5rem 1rem .5rem;
+    margin: .5rem 0 .5rem 1rem;
 }
 
 
@@ -24,7 +22,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     font-size: 1.3rem;
     font-weight: bold;
-    margin: 1rem .5rem 1rem .5rem;
+    margin: .5rem 0 .5rem 1rem;
 }
 
 .Ver__oferta{
@@ -37,5 +35,5 @@
     color: white;
     background: var(--borde-azul);
     font-size: 1.3rem;
-    margin: 1rem .5rem 1rem .5rem;
+    margin: .5rem 0 1rem 1rem;
 }
