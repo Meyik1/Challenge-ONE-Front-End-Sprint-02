@@ -1,5 +1,5 @@
 .banner{
-    background: url(/Assets/Img/banner.jpg) no-repeat center / cover;
+    background: url(../Img/banner.jpg) no-repeat center / cover;
     width: 100%;
     height: 17rem;
     display: flex;
@@ -15,7 +15,6 @@
     font-weight: bold;
     margin: .5rem 0 .5rem 1rem;
 }
-
 
 .ofertas__descripcion{
     color: white;
