@@ -1,7 +1,6 @@
 .Contacto{
-    padding: 2rem 0 0 0;
-    margin: 1rem 0 0 0;
-    background-color: #EAF2FD;
+    padding: 3rem 0 0 0;
+    background: #EAF2FD;
     display: flex;
     flex-direction: column;
 }
@@ -22,6 +21,7 @@
 .datos__contacto{
     font-size: 1.3rem; 
     text-align: center;
+    margin: 0 0 1rem 0;
 }
 
 .datos__contactoli{
@@ -39,20 +39,24 @@
 }
 
 .nombre__form{
-    margin: 1rem 0 0 0;
+    margin: 1rem 1rem 0 0;
+    border: none;
+    border-radius: 8px;
+    width: -webkit-fill-available;
+    height: 4rem;
 }
 
 .Mensaje__contacto{
     margin: 1rem 1rem 0 0;
     border: none;
     resize: none;
-    height: 100px;
+    height: 7rem;
     border-radius: 8px;
     width: -webkit-fill-available;
 }
 
 .Enviar__mensaje{
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 1.5rem 0;
     border: 2px solid var(--color-azul);
     display: flex;
     width: 11rem;
@@ -62,4 +66,68 @@
     color: white;
     background: var(--color-azul);
     font-size: 1.3rem;
+    font: var(--Raleway);
+}
+
+@media screen and (min-width: 768px) {
+    .Contacto{
+        display: flex;
+        flex-direction: row;
+        padding: 1rem 1rem 2rem 1rem;
+        justify-content: space-between;
+    }
+    .Mensaje__contacto{
+        width: -webkit-fill-available;
+    }
+
+    .contacto__form{
+        width: 26rem;
+        margin: 1.5rem 0 0 1rem;
+    }
+    .datos__contacto{
+        margin: 1.5rem 0 0 1rem;
+    }
+    .datos__contactoli{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .Logo__mandocontacto{
+        width: 55px;
+    }
+    
+    .logo__textocontacto{
+        width: 160px;
+    }
+    .Mensaje__contacto{
+        height: 5rem;
+    }
+    .Enviar__mensaje{
+        width: 9rem;
+        height: 2.9rem;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .datos__contacto{
+        display: flex;
+    }
+
+    .contacto__logo{
+        position: relative;
+        bottom: 8rem;
+        margin-right: 6rem;
+        margin-left: 2.7rem;
+    }
+    .contacto__form{
+        width: 31rem;
+    }
+
+    .Enviar__mensaje{
+        width: 8rem;
+        height: 2.4rem;
+        font-size: .9rem;
+    }
 }

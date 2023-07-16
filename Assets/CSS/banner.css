@@ -13,7 +13,8 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
     font-size: 2.5rem;
     font-weight: bold;
-    margin: .5rem 0 .5rem 1rem;
+    margin: .5rem 0 .7rem 1rem;
+    letter-spacing: .1rem;
 }
 
 .ofertas__descripcion{
@@ -21,7 +22,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     font-size: 1.3rem;
     font-weight: bold;
-    margin: .5rem 0 .5rem 1rem;
+    margin: .5rem 0 .6rem 1rem;
 }
 
 .Ver__oferta{
@@ -35,4 +36,31 @@
     background: var(--color-azul);
     font-size: 1.3rem;
     margin: .5rem 0 1rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo{
+        font-size: 3.6rem;
+        margin: .5rem 0 1rem 1rem;
+    }
+    .ofertas__descripcion{
+        font-size: 1.7rem;
+        margin: .5rem 0 .8rem 1rem;
+    }
+    .Ver__oferta{
+        width: 10rem;
+        height: 3rem;
+    }
+    .informacion_oferta{
+        margin: .8rem .8rem .8rem .8rem;
+    }
+    .banner{
+        height: 21rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .informacion_oferta{
+        margin: .8rem .8rem .8rem 5rem;
+    }
 }

@@ -25,7 +25,8 @@
     display: none;
 }
 
-.busqueda__logo{
+.busqueda{
+    display: flex;
     order: 1;
 }
 
@@ -43,4 +44,54 @@
 
 .busqueda__logo{
     width: 35px;
+}
+
+@media screen and (min-width: 768px) {
+    .busqueda__logo{
+        width: 1.4rem;
+        padding: 0 1.3rem 0 0;
+    }
+    .Busqueda__input{
+        display:flex;
+        border: none;
+        border-radius: 5rem;
+        color: var(--color-fuente);
+        padding: .7rem 4rem .7rem 1.3rem;
+        font: var(--Raleway);
+        background-color: #f5f5f5;        
+    }
+    .Busqueda__input::placeholder{
+        font-size: .9rem;
+    }
+    .busqueda{
+        display: flex;
+        right: 3rem;
+        position: relative;
+        border-radius: 5rem;
+        background-color: #f5f5f5;   
+        order: 0;
+    }
+    .Login__boton{
+        display: flex;
+        width: 10rem;
+        height: 2.6rem;
+        font-size: .9rem;
+    }
+    .logo__mando{
+        width: 40px;
+    }
+    
+    .logo__texto{
+        width: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .busqueda{
+        right: 8rem;
+    }
+    .Busqueda__input{
+        padding: .7rem 8rem .7rem 1.3rem;
+    }
 }
