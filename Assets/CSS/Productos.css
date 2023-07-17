@@ -35,9 +35,10 @@
 
 
 .Productos__categoria{
-    margin: 1.2rem 1.5rem 1.2rem 0;
+    margin: 2.5rem 1.5rem 0 0;
     display: flex;
     flex-direction: column;
+    width: ;
 }
 
 .Img__producto{

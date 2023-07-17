@@ -29,21 +29,24 @@
 }
 
 .contacto__form{
-    margin: 3rem 0 0 1rem;
+    margin: 3rem 0 0 1rem;    
+    padding-right: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-weight: bold;
     font-size: 1.2rem;
-    
 }
 
 .nombre__form{
     margin: 1rem 1rem 0 0;
     border: none;
     border-radius: 8px;
-    width: -webkit-fill-available;
+    width: 100%;
     height: 4rem;
+    font: var(--Raleway);
+    padding-left: 1rem;
+    box-shadow: 2px 2px 4px #888888;
 }
 
 .Mensaje__contacto{
@@ -52,7 +55,11 @@
     resize: none;
     height: 7rem;
     border-radius: 8px;
-    width: -webkit-fill-available;
+    width: 100%;
+    font: var(--Raleway);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    box-shadow: 2px 2px 4px #888888;
 }
 
 .Enviar__mensaje{
@@ -74,19 +81,13 @@
         display: flex;
         flex-direction: row;
         padding: 1rem 1rem 2rem 1rem;
-        justify-content: space-between;
+        justify-content: space-around;
     }
-    .Mensaje__contacto{
-        width: -webkit-fill-available;
+    .contacto__form{
+        padding-right: 1rem;
+        width: 40%;
     }
 
-    .contacto__form{
-        width: 26rem;
-        margin: 1.5rem 0 0 1rem;
-    }
-    .datos__contacto{
-        margin: 1.5rem 0 0 1rem;
-    }
     .datos__contactoli{
         display: flex;
         justify-content: flex-start;
@@ -103,7 +104,6 @@
         height: 5rem;
     }
     .Enviar__mensaje{
-        width: 9rem;
         height: 2.9rem;
         font-size: 1rem;
         font-weight: 100;
@@ -126,7 +126,6 @@
     }
 
     .Enviar__mensaje{
-        width: 8rem;
         height: 2.4rem;
         font-size: .9rem;
     }

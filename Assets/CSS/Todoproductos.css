@@ -1,0 +1,51 @@
+.Todos_productos{
+    padding: 3rem 0 0 2rem;    
+    background: #f5f5f5;
+}
+
+.Titulo_todosproductos{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__todos{
+    margin: 0 0 .5rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.boton__titulo{
+    margin: 1rem 0 .5rem 0;
+    border: 1px solid var(--color-azul);
+    display: flex;
+    width: 11rem;
+    height: 3.3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: var(--color-azul);
+    font-size: 1.3rem;
+    font: var(--Raleway);
+}
+
+.imagen__padre{
+    display: flex;
+    position: relative;
+}
+
+.imagen__hijo{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+
+.icono_edit{
+    margin-right: .7rem;
+}
+
+.Identificador{
+    margin-top: .7rem;
+}
+
+
