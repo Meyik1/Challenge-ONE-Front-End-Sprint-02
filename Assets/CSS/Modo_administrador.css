@@ -5,7 +5,19 @@
     padding-top: 2rem;
     padding-left: 1.7rem;
     padding-right: 1.7rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
+}
+
+.admin__boton{
+    border: 2px solid var(--color-azul);
+    display: flex;
+    width: 13rem;
+    height: 3.3rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-azul);
+    background: none;
+    font-size: 1.3rem;
 }
 
 .agregar__titulo{
@@ -13,7 +25,7 @@
     font-size: 1.5rem;
 }
 
-.boton__admin{
+.input__admin{
     margin: 1.5rem 0 0 0;
     border: none;
     width: 95%;
@@ -21,10 +33,6 @@
     font: var(--Raleway);
     padding-left: 1rem;
     box-shadow: 2px 2px 4px #888888;
-}
-
-.Login__boton{
-    width: 40%;
 }
 
 .descripcion_texto{
@@ -52,23 +60,15 @@
     font-size: 1.3rem;
     font: var(--Raleway);
 }
-
 @media screen and (min-width: 1200px) {
     .agregar__titulo{
         align-items: flex-start;
     }
 
     .nuevo__producto{
-        align-items: center;
-    }
-    .boton__admin{
-        width: 50%;
-    }
-    .descripcion_texto{
-        width: 50%;
-    }
-    .agregar__boton{
-        width: 52%;
+        align-items:flex-start;
+        padding-left: 21rem;
+        padding-right: 21rem;
     }
 
 }

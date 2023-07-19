@@ -1,9 +1,9 @@
 .Todos_productos{
-    padding: 3rem 0 0 2rem;    
     background: #f5f5f5;
 }
 
 .Titulo_todosproductos{
+    padding: 1rem 2.5rem .2rem 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -28,6 +28,8 @@
     font: var(--Raleway);
 }
 
+
+
 .imagen__padre{
     display: flex;
     position: relative;
@@ -46,6 +48,7 @@
 
 .Identificador{
     margin-top: .7rem;
+    font-size: 1.3rem;
 }
 
 

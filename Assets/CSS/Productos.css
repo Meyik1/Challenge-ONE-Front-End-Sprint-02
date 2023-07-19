@@ -1,5 +1,5 @@
 .Productos{
-    margin: 2rem 0 0 1rem;
+    background: #f5f5f5;
 }
 
 .Titulo_categoria{
@@ -11,6 +11,7 @@
 .Categoria{
     display: flex;
     justify-content: space-between;
+    padding: 1.5rem 0 .5rem 1rem;
 }
 
 .Ver_boton{
@@ -26,18 +27,21 @@
     margin: 0 .5rem 0 0;
 }
 
-.productos_lista{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.Productos__categoria{
+    border-radius: 10px;
+    width: 100%;
+    height: auto; 
 }
 
-
-.Productos__categoria{
-    margin: 2.5rem 1.5rem 0 0;
-    display: flex;
-    flex-direction: column;
+.productos_lista{
+    padding: 1rem 2.5rem 2rem 1rem;
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit, 
+        minmax(160px, 1fr)
+        );
+    gap: 32px;
 }
 
 .Img__producto{
@@ -46,18 +50,18 @@
 
 .Nombre__producto{
     font-size: 1.2rem;
-    margin: .5rem 0 0 0;
+    margin: .7rem 0 0 0;
 }
 
 .Precio__producto{
     font-size: 1.2rem;
-    margin: .5rem 0 0 0;
+    margin: .7rem 0 0 0;
     font-weight: bold;
 }
 
 .Ver__producto{
     font-size: 1.2rem;
-    margin: .5rem 0 0 0;
+    padding: .7rem 0 0 0;
     color: var(--color-azul);
     font-weight: bold;
 }
