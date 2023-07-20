@@ -71,7 +71,7 @@
         font-size: 1.6rem;
     }
     .productos_lista{
-        margin-bottom: 5rem;
+        padding-bottom: 5rem;
     }
 
     .Vertodo_boton{
@@ -89,7 +89,7 @@
     .productos_lista{
         margin-left: 4rem;
         margin-right: 4rem;
-        margin-bottom: 4rem;
+        padding-bottom: 4rem;
     }
 
 }

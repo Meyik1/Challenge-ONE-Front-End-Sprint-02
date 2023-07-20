@@ -30,9 +30,11 @@
         </section>
         <section class="inputs__login">
             <p class="iniciar__titulo">Iniciar Sesión</p>
-            <input type="text" placeholder="Escriba su correo electronico" required class="inicio__input">
-            <input type="text" placeholder="Escriba su contraseña" required class="inicio__input">
-            <button class="entrar__boton">Entrar</button>
+            <form class="login__form">
+                <input type="email" placeholder="Escriba su correo electronico" required class="inicio__input">
+                <input type="text" placeholder="Escriba su contraseña" required class="inicio__input" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" title="Mínimo 6 caracteres, al menos una letra y un número.">
+                <button class="entrar__boton">Entrar</button>
+            </form>
         </section>
         <section class="Contacto">
             <div class="datos__contacto">
@@ -51,9 +53,11 @@
             </div>
             <div class="contacto__form">
                 <h3>Hable con nosotros</h3>
-                <input type="text" class="nombre__form" placeholder="Nombre" required>
-                <textarea name="mensaje" class="Mensaje__contacto" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                <button class="Enviar__mensaje">Enviar mensaje</button>
+                <form>
+                    <input type="text" class="nombre__form" placeholder="Nombre" required>
+                    <textarea name="mensaje" class="Mensaje__contacto" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="Enviar__mensaje">Enviar mensaje</button>
+                </form>
             </div>
         </section>
         <footer>
@@ -66,3 +70,5 @@
         </footer>
     </body>
 </html>
+
+

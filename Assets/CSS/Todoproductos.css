@@ -1,9 +1,15 @@
 .Todos_productos{
     background: #f5f5f5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cabecera__header{
+    padding: 0 0 0 0;
 }
 
 .Titulo_todosproductos{
-    padding: 1rem 2.5rem .2rem 1rem;
+    padding: 2.5rem 1rem .5rem 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -51,4 +57,39 @@
     font-size: 1.3rem;
 }
 
+@media screen and (min-width: 768px) {
+    .cabecera__logo{
+        margin: 0 5rem 0 1rem;
+    }
+    .Titulo_todosproductos{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem 1rem .5rem 1rem;
+    }
+    .boton__titulo{
+        margin: 0 0 0 0;
+        height: 2.8rem;
+    }
+    .titulo__todos{
+        font-size: 1.5rem;
+    }
+}
 
+@media screen and (min-width: 1200px) {
+    .Titulo_todosproductos{
+        padding: 2.5rem 5rem .5rem 5rem;
+    }
+    .logo__texto{
+        width: 100px;
+    }
+    .logo__mando{
+        width: 50px;
+    }   
+    .Busqueda__input{
+        padding-right: 10rem;
+    }
+    .cabecera__logo{
+        margin: 0 10rem 0 5rem;
+    }
+}

@@ -11,13 +11,13 @@
 .admin__boton{
     border: 2px solid var(--color-azul);
     display: flex;
-    width: 13rem;
+    width: 12rem;
     height: 3.3rem;
     justify-content: center;
     align-items: center;
     color: var(--color-azul);
     background: none;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
 }
 
 .agregar__titulo{
@@ -60,7 +60,36 @@
     font-size: 1.3rem;
     font: var(--Raleway);
 }
+@media screen and (min-width: 768px) {
+    .nuevo__producto{
+        padding-top: 2.5rem;
+        padding-left: 2.5rem;
+    }
+    .cabecera__header{
+        display: flex;
+        padding: 0 .5rem 0 .5rem;
+    }
+    .admin__boton{
+        font-size: .9rem;
+        width: 9rem;
+        height: 2.8rem;
+    }
+    .logo__texto{
+        width: 80px;
+    }
+    .logo__mando{
+        width: 30px;
+    }   
+    .Busqueda__input{
+        padding-right: 2.5rem;
+    }
+    
+}
+
 @media screen and (min-width: 1200px) {
+    .nuevo__producto{
+        padding-top: 3.5rem;
+    }
     .agregar__titulo{
         align-items: flex-start;
     }
@@ -70,5 +99,17 @@
         padding-left: 21rem;
         padding-right: 21rem;
     }
-
+    .logo__texto{
+        width: 100px;
+    }
+    .logo__mando{
+        width: 50px;
+    }   
+    .Busqueda__input{
+        padding-right: 10rem;
+    }
+    .admin__boton{
+        width: 10rem;
+        font-size: 1.3;
+    }
 }

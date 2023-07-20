@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AluraGeek - Login</title>
+        <title>AluraGeek - Administrador</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -25,17 +25,19 @@
                     <input class="Busqueda__input" placeholder="¿Qué deseas buscar?">
                     <img src="/Assets/Img/icono_lupa.svg" alt="Icono Lupa" class="busqueda__logo">
                 </div>
-                <button type="submit" class="admin__boton">Menu administrador</button>
+                <button type="submit" class="admin__boton">Menú administrador</button>
             </header>
         </section>
         <section class="nuevo__producto">
             <p class="agregar__titulo">Agregar nuevo producto</p>
-            <input class="input__admin" type="text" placeholder="URL de la imagen" required>
-            <input class="input__admin" type="text" placeholder="Categoria">
-            <input class="input__admin" type="text" placeholder="Nombre del producto" required>
-            <input class="input__admin" type="text" placeholder="Precio del producto">
-            <textarea class="descripcion_texto" id="descripcion" cols="30" rows="10" placeholder="Descripcion del producto"></textarea>
-            <button class="agregar__boton">Agregar producto</button>
+            <form class="form__producto">
+                <input class="input__admin" type="url" placeholder="URL de la imagen" required>
+                <input class="input__admin" type="text" placeholder="Categoria" required>
+                <input class="input__admin" type="text" placeholder="Nombre del producto" required>
+                <input class="input__admin" type="number" placeholder="Precio del producto" required>
+                <textarea class="descripcion_texto" id="descripcion" cols="30" rows="10" placeholder="Descripcion del producto" required minlength="30"></textarea>
+                <button class="agregar__boton">Agregar producto</button>
+            </form>
         </section>
         <section class="Contacto">
             <div class="datos__contacto">
@@ -54,9 +56,11 @@
             </div>
             <div class="contacto__form">
                 <h3>Hable con nosotros</h3>
-                <input type="text" class="nombre__form" placeholder="Nombre" required>
-                <textarea name="mensaje" class="Mensaje__contacto" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                <button class="Enviar__mensaje">Enviar mensaje</button>
+                <form>
+                    <input type="text" class="nombre__form" placeholder="Nombre" required>
+                    <textarea name="mensaje" class="Mensaje__contacto" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="Enviar__mensaje">Enviar mensaje</button>
+                </form>
             </div>
         </section>
         <footer>
