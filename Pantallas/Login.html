@@ -30,10 +30,10 @@
         </section>
         <section class="inputs__login">
             <p class="iniciar__titulo">Iniciar Sesión</p>
-            <form class="login__form">
-                <input type="email" placeholder="Escriba su correo electronico" required class="inicio__input">
-                <input type="text" placeholder="Escriba su contraseña" required class="inicio__input" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" title="Mínimo 6 caracteres, al menos una letra y un número.">
-                <button class="entrar__boton">Entrar</button>
+            <form class="login__form" id="form">
+                <input type="email" placeholder="Escriba su correo electronico" required class="inicio__input" id="correo">
+                <input type="password" placeholder="Escriba su contraseña" required class="inicio__input" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" title="Mínimo 6 caracteres, al menos una letra y un número." id="pass">
+                <button class="entrar__boton" id="enviar">Entrar</button>
             </form>
         </section>
         <section class="Contacto">
@@ -68,6 +68,7 @@
                 </div>
             </section>
         </footer>
+        <script src="/Js/Validaciones.js"></script>
     </body>
 </html>
 
