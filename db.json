@@ -1,0 +1,17 @@
+{
+    "producto": [
+        {
+        "name": "Alura",
+        "imagenUrl": "#",
+        "price": "1",
+        "id": 1
+        },
+        {
+        "name": "Alura",
+        "imagenUrl": "#",
+        "price": "1",
+        "id": 1
+    
+         }
+    ]
+}

@@ -52,6 +52,9 @@
     margin: 0 1rem 0 1rem;
     padding: 1rem 1rem 0 1rem;
 }
+.cabecera__logo{
+    align-items: center;
+}
 
 @media screen and (min-width: 768px) {
     .inicio__input{

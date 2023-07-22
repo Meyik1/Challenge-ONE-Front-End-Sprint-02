@@ -8,7 +8,7 @@ form.addEventListener("submit", e=>{
     if(correocorrecto.value == "meeyik.22@gmail.com" && passcorrecto.value == "alura123"){
         console.log(correocorrecto);
         enviarBtn.enable = true;
-        window.location.href = "Modo_administrador.html";
+        window.location.href = "Todos_productos.html";
     }else{
         enviarBtn.disable = false;
         alert("El correo o la contraseña ingresada es incorrecto")

@@ -60,6 +60,7 @@
 @media screen and (min-width: 768px) {
     .cabecera__logo{
         margin: 0 5rem 0 1rem;
+        align-items: center;
     }
     .Titulo_todosproductos{
         flex-direction: row;

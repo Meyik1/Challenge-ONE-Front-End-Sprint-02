@@ -20,8 +20,8 @@
         <section class="cabecera container">
             <header class="cabecera__header">
                 <div class="cabecera__logo">
-                    <img src="/Assets/Img/Logo_Alura.svg" alt="Logo AluraGeek" class="logo__mando">
-                    <img src="/Assets/Img/texto_logo.svg" alt="Texto AluraGeek" class="logo__texto">
+                    <a href="/index.html"><img src="/Assets/Img/Logo_Alura.svg" alt="Logo AluraGeek" class="logo__mando"></a>
+                    <a href="/index.html"><img src="/Assets/Img/texto_logo.svg" alt="Texto AluraGeek" class="logo__texto"></a>
                 </div>
                 <div class="busqueda">
                     <input class="Busqueda__input" placeholder="¿Qué deseas buscar?">
@@ -32,24 +32,9 @@
         <section class="Todos_productos">
             <div class="Titulo_todosproductos">
                 <p class="titulo__todos">Todos los productos</p>
-                <button class="boton__titulo">Agregar producto</button>
+                <a href="Modo_administrador.html"><button class="boton__titulo">Agregar producto</button></a>
             </div>
             <div class="productos_lista">
-                <div class="Productos__categoria">
-                    <div class="imagen__padre">
-                        <img src="/Assets/Img/producto_starwars.png" class="Img__producto" alt="Imagen de producto"/>
-                            <div class="imagen__hijo">
-                                <img src="/Assets/Img/basura.svg" alt="Icono de basura" class="icono_edit">
-                                <img src="/Assets/Img/lapiz.svg" alt="Icono de lapiz" class="icono_edit">
-                            </div>  
-                    </div>
-                    <ul class="Productos__categoria">
-                        <li class="Nombre__producto">Taza de Star Wars</li>
-                        <li class="Precio__producto">$500</li>
-                        </li>
-                    </ul>
-                    <p class="Identificador">#1111</p>
-                </div>
                 <div class="Productos__categoria">
                     <div class="imagen__padre">
                         <img src="/Assets/Img/producto_starwars.png" class="Img__producto" alt="Imagen de producto"/>
@@ -114,6 +99,7 @@
                 </div>
             </section>
         </footer>
+        <script src="/Service/Productos.js"></script>
     </body>
 </html>
     
