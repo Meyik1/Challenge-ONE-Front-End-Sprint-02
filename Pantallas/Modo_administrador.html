@@ -30,12 +30,12 @@
         </section>
         <section class="nuevo__producto">
             <p class="agregar__titulo">Agregar nuevo producto</p>
-            <form class="form__producto">
-                <input class="input__admin" type="url" placeholder="URL de la imagen" required>
-                <input class="input__admin" type="text" placeholder="Categoria" required>
-                <input class="input__admin" type="text" placeholder="Nombre del producto" required>
-                <input class="input__admin" type="number" placeholder="Precio del producto" required>
-                <textarea class="descripcion_texto" id="descripcion" cols="30" rows="10" placeholder="Descripcion del producto" required minlength="30"></textarea>
+            <form class="form__producto" data-form>
+                <input class="input__admin" type="url" placeholder="URL de la imagen" required data-img>
+                <input class="input__admin" type="text" placeholder="Categoria" required data-categoria>
+                <input class="input__admin" type="text" placeholder="Nombre del producto" required data-name>
+                <input class="input__admin" type="number" placeholder="Precio del producto" required data-price>
+                <textarea class="descripcion_texto" id="descripcion" cols="30" rows="10" placeholder="Descripcion del producto" required minlength="30" data-descripcion></textarea>
                 <button class="agregar__boton">Agregar producto</button>
             </form>
         </section>
@@ -71,5 +71,6 @@
                 </div>
             </section>
         </footer>
+        <script type="module" src="/Controllers/Registro_producto.js"></script>
     </body>
 </html>

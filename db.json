@@ -1,17 +1,22 @@
 {
     "producto": [
         {
-        "name": "Alura",
-        "imagenUrl": "#",
-        "price": "1",
+        "imagenUrl": "../Assets/Img/producto_starwars.png",
+        "name": "Taza de Star Wars",
+        "price": "500",
         "id": 1
         },
         {
-        "name": "Alura",
-        "imagenUrl": "#",
-        "price": "1",
+        "imagenUrl": "../Assets/Img/producto_starwars.png",
+        "name": "Taza de Star Wars",
+        "price": "500",
         "id": 1
-    
-         }
+        },
+        {
+        "imagenUrl": "../Assets/Img/producto_starwars.png",
+        "name": "Taza de Star Wars",
+        "price": "500",
+        "id": 1
+        }        
     ]
 }
