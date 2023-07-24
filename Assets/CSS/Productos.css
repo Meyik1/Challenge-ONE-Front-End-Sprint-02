@@ -46,6 +46,9 @@
 
 .Img__producto{
     display: flex;
+    
+    width: 176px;
+    height: 174px;
 }
 
 .Nombre__producto{

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AluraGeek - Login</title>
+        <title>AluraGeek - Administrador</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -12,28 +12,31 @@
         <link rel="stylesheet" href="../Assets/CSS/cabecera.css">
         <link rel="stylesheet" href="../Assets/CSS/Contacto.css">
         <link rel="stylesheet" href="../Assets/CSS/Footer.css">
-        <link rel="stylesheet" href="../Assets/CSS/Login.css">
+        <link rel="stylesheet" href="../Assets/CSS/Modo_administrador.css">
     </head>
     <body>
         <section class="cabecera">
             <header class="cabecera__header">
                 <div class="cabecera__logo">
-                    <a href="/index.html"><img src="../Assets/Img/Logo_Alura.svg" alt="Logo AluraGeek" class="logo__mando"></a>
-                    <a href="/index.html"><img src="../Assets/Img/texto_logo.svg" alt="Texto AluraGeek" class="logo__texto"></a>
+                    <a href="../index.html"><img src="../Assets/Img/Logo_Alura.svg" alt="Logo AluraGeek" class="logo__mando"></a>
+                    <a href="../index.html"><img src="../Assets/Img/texto_logo.svg" alt="Texto AluraGeek" class="logo__texto"></a>
                 </div>
                 <div class="busqueda">
                     <input class="Busqueda__input" placeholder="¿Qué deseas buscar?">
                     <img src="../Assets/Img/icono_lupa.svg" alt="Icono Lupa" class="busqueda__logo">
                 </div>
-                <button type="submit" class="Login__boton">Login</button>
+                <a href="Todos_productos.html"><button type="submit" class="admin__boton">Menú administrador</button></a>
             </header>
         </section>
-        <section class="inputs__login">
-            <p class="iniciar__titulo">Iniciar Sesión</p>
-            <form class="login__form" id="form">
-                <input type="email" placeholder="Escriba su correo electronico" required class="inicio__input" id="correo">
-                <input type="password" placeholder="Escriba su contraseña" required class="inicio__input" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" title="Mínimo 6 caracteres, al menos una letra y un número." id="pass">
-                <button class="entrar__boton" id="enviar">Entrar</button>
+        <section class="nuevo__producto">
+            <p class="agregar__titulo">Agregar nuevo producto</p>
+            <form class="form__producto" data-form>
+                <input class="input__admin" type="url" placeholder="URL de la imagen" required data-imagenUrl>
+                <input class="input__admin" type="text" placeholder="Categoria" required data-categoria>
+                <input class="input__admin" type="text" placeholder="Nombre del producto" required data-name>
+                <input class="input__admin" type="number" placeholder="Precio del producto" required data-price>
+                <textarea class="descripcion_texto" id="descripcion" cols="30" rows="10" placeholder="Descripcion del producto" required minlength="30" data-descripcion></textarea>
+                <button class="agregar__boton">Agregar producto</button>
             </form>
         </section>
         <section class="Contacto">
@@ -68,8 +71,6 @@
                 </div>
             </section>
         </footer>
-        <script src="../Js/Validaciones.js"></script>
+        <script type="module" src="../Controllers/Editar.controller.js"></script>
     </body>
 </html>
-
-

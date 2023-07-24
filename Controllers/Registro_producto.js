@@ -1,11 +1,15 @@
+import { clientServices } from "../Service/Productos.js";
 const formulario = document.querySelector("[data-form]")
+
 
 formulario.addEventListener("submit", (evento) => {
     evento.preventDefault();
-    const img = document.querySelector("[data-img]").value;
+    const imagenUrl = document.querySelector("[data-imagenUrl]").value;
     const categoria = document.querySelector("[data-categoria]").value;
-    const nombre = document.querySelector("[data-name]").value;
-    const precio = document.querySelector("[data-price]").value;
+    const name = document.querySelector("[data-name]").value;
+    const price = document.querySelector("[data-price]").value;
     const descripcion = document.querySelector("[data-descripcion]").value;
-    console.log(img,categoria,nombre,precio,descripcion);
+    clientServices.crearproductosadmin(imagenUrl,categoria,name,price,descripcion).then( () => {
+        window.location.href ="Todos_productos.html";
+    }).catch((err) => console.log(err));
 });
