@@ -50,7 +50,10 @@
 
 .icono_edit{
     margin-right: .7rem;
+    background-color: var(--color-azul);
+    border-radius: 5px;
 }
+
 
 .Identificador{
     margin-top: .7rem;

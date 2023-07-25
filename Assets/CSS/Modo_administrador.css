@@ -11,13 +11,13 @@
 .admin__boton{
     border: 2px solid var(--color-azul);
     display: flex;
-    width: 12rem;
-    height: 3.3rem;
+    width: 10rem;
+    height: 2.8rem;
     justify-content: center;
     align-items: center;
     color: var(--color-azul);
     background: none;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 .agregar__titulo{
@@ -31,6 +31,17 @@
     width: 95%;
     height: 4rem;
     font: var(--Raleway);
+    padding-left: 1rem;
+    box-shadow: 2px 2px 4px #888888;
+}
+
+.input__adminselect{
+    margin: 1.5rem 0 0 0;
+    border: none;
+    width: 98.5%;
+    height: 4rem;
+    font: var(--Raleway);
+    color: var(--color-fuente);
     padding-left: 1rem;
     box-shadow: 2px 2px 4px #888888;
 }

@@ -8,11 +8,11 @@
 }
 
 .logo__mando{
-    width: 50px;
+    width: 40px;
 }
 
 .logo__texto{
-    width: 110px;
+    width: 100px;
 }
 
 .cabecera__header{
@@ -33,17 +33,17 @@
 .Login__boton{
     border: 2px solid var(--color-azul);
     display: flex;
-    width: 11rem;
-    height: 3.3rem;
+    width: 10rem;
+    height: 2.8rem;
     justify-content: center;
     align-items: center;
     color: var(--color-azul);
     background: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .busqueda__logo{
-    width: 35px;
+    width: 30px;
 }
 
 @media screen and (min-width: 768px) {

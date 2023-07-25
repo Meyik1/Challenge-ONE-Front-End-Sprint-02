@@ -32,8 +32,12 @@
             <p class="agregar__titulo">Agregar nuevo producto</p>
             <form class="form__producto" data-form>
                 <input class="input__admin" type="url" placeholder="URL de la imagen" required data-imagenUrl>
-                <input class="input__admin" type="text" placeholder="Categoria" required data-categoria>
-                <input class="input__admin" type="text" placeholder="Nombre del producto" required data-name>
+                <select class="input__adminselect" required data-categoria>
+                    <option value="StarWars">Star Wars</option>
+                    <option value="Consolas">Consolas</option>
+                    <option value="Diversos">Diversos</option>
+                </select>
+                <input class="input__admin" type="text" placeholder="Nombre del producto" required data-name maxlength="22">
                 <input class="input__admin" type="number" placeholder="Precio del producto" required data-price>
                 <textarea class="descripcion_texto" id="descripcion" cols="30" rows="10" placeholder="Descripcion del producto" required minlength="30" data-descripcion></textarea>
                 <button class="agregar__boton">Agregar producto</button>

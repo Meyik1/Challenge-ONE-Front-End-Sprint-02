@@ -1,30 +1,28 @@
 {
   "producto": [
     {
-      "imagenUrl": "https://th.bing.com/th/id/OIP.1yoeUK34D66kRLAREgWjIQAAAA?pid=ImgDet&w=458&h=458&rs=1",
-      "name": "Taza de Yoda",
-      "price": "1999",
-      "id": 5
-    },
-    {
-      "imagenUrl": "https://c49d16a6c82563251344-1ab5a5b00ecdd96a368a8d8d17482920.ssl.cf2.rackcdn.com/images/TS_The_Mandalorian_Child_Shaped_Star_Wars_Mug_13_99_1-380-405.jpg",
-      "name": "Taza de baby Yoda",
-      "price": "80000",
-      "id": 6
-    },
-    {
-      "imagenUrl": "https://m.media-amazon.com/images/I/61-eXne29QL._AC_SL1500_.jpg",
-      "name": "Imeeden",
-      "price": "1989",
-      "id": 7
-    },
-    {
       "imagenUrl": "https://th.bing.com/th/id/OIP.26zK0usUTxRWoVdY5qQAHQAAAA?pid=ImgDet&rs=1",
-      "categoria": "Star Wars",
-      "name": "Taza de TODA",
-      "price": "144",
-      "descripcion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "categoria": "StarWars",
+      "name": "Taza de Baby Yoda",
+      "price": "1999",
+      "descripcion": "Taza de Baby Yoda Taza de Baby Yoda Taza de Baby Yoda Taza de Baby Yoda Taza de Baby Yoda Taza de Baby Yoda Taza de Baby Yoda Taza de Baby Yoda ",
       "id": 8
+    },
+    {
+      "imagenUrl": "https://i.etsystatic.com/27825707/r/il/f6edf6/2936189170/il_fullxfull.2936189170_t25u.jpg",
+      "categoria": "Consolas",
+      "name": "PS 5",
+      "price": "7900",
+      "descripcion": "Una consola totalmente nueva, con caja y todo ",
+      "id": 9
+    },
+    {
+      "imagenUrl": "https://th.bing.com/th/id/OIP.lzaXOzE5OAQtxnKPTxUaagHaHa?pid=ImgDet&rs=1",
+      "categoria": "Consolas",
+      "name": "Xbox series S",
+      "price": "7999",
+      "descripcion": "La consola está totalmente nueva, no se ha abierto y tiene garantia.",
+      "id": 11
     }
   ]
 }
