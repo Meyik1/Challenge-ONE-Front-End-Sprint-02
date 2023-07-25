@@ -25,7 +25,7 @@ const crearProducto = (imagenUrl,categoria,name,price,descripcion,id) => {
         const id = btn.id
         clientServices.eliminarproducto(id).then( respuesta =>{
 
-        }).cath((err) => alert("Ocurrió un error"));
+        }).catch((err) => alert("Ocurrió un error"));
     });
     return producto;
 };
