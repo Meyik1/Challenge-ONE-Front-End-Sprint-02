@@ -12,17 +12,17 @@ const crearproductosadmin = (imagenUrl,categoria,name,price,descripcion,id) => {
 };
 
 const eliminarproducto = (id) => {
-    return fetch(`https://64bf57415ee688b6250d4a2d.mockapi.io/Producto//${id}`, {
+    return fetch(`https://64bf57415ee688b6250d4a2d.mockapi.io/Producto/${id}`, {
         method: "DELETE"
     });
 };
 
 const detalleProducto = (id) => {
-    return fetch(`https://64bf57415ee688b6250d4a2d.mockapi.io/Producto//${id}`).then(respuesta => respuesta.json());
+    return fetch(`https://64bf57415ee688b6250d4a2d.mockapi.io/Producto/${id}`).then(respuesta => respuesta.json());
 };
 
 const editarProducto = (imagenUrl,categoria,name,price,descripcion,id) => {
-    return fetch(`https://64bf57415ee688b6250d4a2d.mockapi.io/Producto//${id}`, {
+    return fetch(`https://64bf57415ee688b6250d4a2d.mockapi.io/Producto/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
