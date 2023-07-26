@@ -41,7 +41,7 @@
         auto-fit, 
         minmax(160px, 1fr)
         );
-    gap: 25px;
+    gap: 20px;
 }
 
 .Img__producto{
