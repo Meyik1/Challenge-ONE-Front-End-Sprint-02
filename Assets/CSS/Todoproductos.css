@@ -76,6 +76,13 @@
     .titulo__todos{
         font-size: 1.5rem;
     }
+    .imagen__hijo{
+        left: 110px; 
+    }
+    .icono_edit{
+        margin-right: .7rem;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
