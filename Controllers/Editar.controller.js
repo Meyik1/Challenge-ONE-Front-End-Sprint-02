@@ -41,9 +41,9 @@ formulario.addEventListener("submit", (evento) => {
             text: " ",
             icon: "success",
             button: false,
-            timer: 3000            
+            timer: 2000            
         }).then(() => {
         window.location.href = "Todos_productos.html";
-        });
+    })
     });
 });
