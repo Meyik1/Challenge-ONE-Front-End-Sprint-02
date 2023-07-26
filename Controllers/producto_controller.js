@@ -24,7 +24,7 @@ const crearProducto = (imagenUrl,categoria,name,price,descripcion,id) => {
     btn.addEventListener("click", ()=> {
         const id = btn.id
         clientServices.eliminarproducto(id).then( respuesta =>{
-
+            window.location.href ="Todos_productos.html"
         }).catch((err) => alert("Ocurrió un error"));
     });
     return producto;

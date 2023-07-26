@@ -10,6 +10,14 @@ formulario.addEventListener("submit", (evento) => {
     const price = document.querySelector("[data-price]").value;
     const descripcion = document.querySelector("[data-descripcion]").value;
     clientServices.crearproductosadmin(imagenUrl,categoria,name,price,descripcion).then( () => {
-        window.location.href ="Todos_productos.html";
+        swal({
+            title: "Producto Agregado",
+            text: " ",
+            icon: "success",
+            button: false,
+            timer: 3000            
+        }).then(() => {
+        window.location.href = "Todos_productos.html";
+    })
     }).catch((err) => console.log(err));
 });

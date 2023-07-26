@@ -36,6 +36,14 @@ formulario.addEventListener("submit", (evento) => {
     const descripcion = document.querySelector("[data-descripcion]").value
 
     clientServices.editarProducto(imagenUrl,categoria,name,price,descripcion,id).then(() => {
-        window.location.href ="Todos_productos.html"
+        swal({
+            title: "Información Actualizada",
+            text: " ",
+            icon: "success",
+            button: false,
+            timer: 3000            
+        }).then(() => {
+        window.location.href = "Todos_productos.html";
+        });
     });
 });
