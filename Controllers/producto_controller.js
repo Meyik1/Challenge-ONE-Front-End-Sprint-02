@@ -7,7 +7,7 @@ const crearProducto = (imagenUrl,categoria,name,price,descripcion,id) => {
             <div class="imagen__padre">
                 <img src="${imagenUrl}" class="Img__producto" alt="Imagen de producto"/>
                     <div class="imagen__hijo">
-                        <a id= "${id}"><img src="../Assets/Img/basura.svg" alt="Icono de basura" class="icono_edit"></a>
+                        <a href ="#" id= "${id}"><img src="../Assets/Img/basura.svg" alt="Icono de basura" class="icono_edit"></a>
                         <a href ="Editar_producto.html?id=${id}"><img src="../Assets/Img/lapiz.svg" alt="Icono de lapiz" class="icono_edit"></a>
                     </div>  
             </div>
