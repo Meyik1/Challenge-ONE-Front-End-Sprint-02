@@ -19,7 +19,7 @@ const obtenerInformacion = () => {
         price.value = producto.price;
         descripcion.value = producto.descripcion;
     });
-;}
+};
 
 obtenerInformacion();
 
