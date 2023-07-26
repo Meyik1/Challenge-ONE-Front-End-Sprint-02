@@ -41,29 +41,28 @@
         auto-fit, 
         minmax(160px, 1fr)
         );
-    gap: 32px;
+    gap: 25px;
 }
 
 .Img__producto{
     display: flex;
-    
-    width: 176px;
-    height: 174px;
+    width: 168px;
+    height: 168px;
 }
 
 .Nombre__producto{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: .7rem 0 0 0;
 }
 
 .Precio__producto{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: .7rem 0 0 0;
     font-weight: bold;
 }
 
 .Ver__producto{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: .7rem 0 0 0;
     color: var(--color-azul);
     font-weight: bold;
@@ -78,6 +77,20 @@
     }
 
     .Vertodo_boton{
+        font-size: 1.2rem;
+    }
+    .Img__producto{
+        display: flex;
+        width: 175px;
+        height: 175px;
+    }
+    .Nombre__producto{
+        font-size: 1.2rem;
+    }
+    .Precio__producto{
+        font-size: 1.2rem;
+    }
+    .Ver__producto{
         font-size: 1.2rem;
     }
 }

@@ -33,7 +33,7 @@
 .Login__boton{
     border: 2px solid var(--color-azul);
     display: flex;
-    width: 10rem;
+    width: 8rem;
     height: 2.8rem;
     justify-content: center;
     align-items: center;
