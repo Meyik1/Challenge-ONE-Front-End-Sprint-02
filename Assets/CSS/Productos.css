@@ -20,7 +20,7 @@
     margin: 0 1rem 0 0;
     color: var(--color-azul);
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .Vertodo_boton{
@@ -39,41 +39,53 @@
     grid-template-columns: 
     repeat(
         auto-fit, 
-        minmax(160px, 1fr)
+        minmax(125px, 1fr)
         );
-    gap: 20px;
+    gap: 25px;
 }
 
 .Img__producto{
     display: flex;
-    width: 168px;
-    height: 168px;
+    width: 130px;
+    height: 130px;
 }
-
+.info__producto{
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    justify-content: end;
+}
 .Nombre__producto{
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: .7rem 0 0 0;
+    text-align: start;
 }
 
 .Precio__producto{
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: .7rem 0 0 0;
     font-weight: bold;
 }
 
 .Ver__producto{
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: .7rem 0 0 0;
     color: var(--color-azul);
     font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
+    .Productos{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .Titulo_categoria{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+        padding-top: 1rem;
     }
     .productos_lista{
-        padding-bottom: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
     }
 
     .Vertodo_boton{
@@ -81,31 +93,32 @@
     }
     .Img__producto{
         display: flex;
-        width: 175px;
-        height: 175px;
-    }
-    .Nombre__producto{
-        font-size: 1.2rem;
-    }
-    .Precio__producto{
-        font-size: 1.2rem;
-    }
-    .Ver__producto{
-        font-size: 1.2rem;
+        width: 160px;
+        height: 160px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .Titulo_categoria{
+        padding-top: 2rem;
         margin-left: 4rem;
     }
     .Ver_boton{
         margin-right: 6rem;
+    }
+    .Vertodo_boton{
+        font-size: 1rem;
+    }
+    .Titulo_categoria{
+        font-size: 2.1rem;
     }
     .productos_lista{
         margin-left: 4rem;
         margin-right: 4rem;
         padding-bottom: 4rem;
     }
-
+    .Img__producto{
+        width: 150px;
+        height: 150px;
+    }
 }

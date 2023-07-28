@@ -5,9 +5,11 @@ const crearProducto = (imagenUrl, categoria, name,price) => {
     const contenido = `
         <div class="Productos__categoria">              
         <img src="${imagenUrl}" class="Img__producto" alt="Imagen de producto"/>
+        <div class="info__producto">
         <p class="Nombre__producto">${name}</p>
         <p class="Precio__producto">$${price}</p>
         <p class="Ver__producto">Ver producto</p>
+        </div>
         </div>
     `;
     producto.innerHTML = contenido;

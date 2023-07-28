@@ -1,5 +1,5 @@
 .Contacto{
-    padding: 4rem 0 0 0;
+    padding: 1rem 0 0 0;
     background: #EAF2FD;
     display: flex;
     flex-direction: column;
@@ -11,17 +11,16 @@
 }
 
 .Logo__mandocontacto{
-    width: 65px;
+    width: 45px;
 }
 
 .logo__textocontacto{
-    width: 170px;
+    width: 140px;
 }
 
 .datos__contacto{
-    font-size: 1.3rem; 
+    font-size: 1rem; 
     text-align: center;
-    margin: 0 0 1rem 0;
 }
 
 .datos__contactoli{
@@ -29,7 +28,7 @@
 }
 
 .contacto__form{
-    margin: 3rem .4rem 0 1rem;    
+    margin: 3rem 0rem 0 1rem;    
     padding-right: 2rem;
     display: flex;
     flex-direction: column;
@@ -80,13 +79,13 @@
     .Contacto{
         display: flex;
         flex-direction: row;
-        padding: 1rem 1rem 2rem 1rem;
-        justify-content: space-around;
+        padding: 1rem 2rem 2rem 2rem;
+        justify-content: space-between;
     }
     .contacto__form{
         margin-top: 1rem;
         padding-right: 1rem;
-        width: 40%;
+        width: 55%;
     }
 
     .datos__contactoli{
@@ -95,11 +94,11 @@
     }
 
     .Logo__mandocontacto{
-        width: 55px;
+        width: 45px;
     }
     
     .logo__textocontacto{
-        width: 160px;
+        width: 150px;
     }
     .Mensaje__contacto{
         height: 5rem;

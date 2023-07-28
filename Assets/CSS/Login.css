@@ -34,7 +34,7 @@
     border: 2px solid var(--color-azul);
     display: flex;
     width: 9rem;
-    height: 3.3rem;
+    height: 3rem;
     justify-content: center;
     align-items: center;
     color: white;
@@ -56,12 +56,14 @@
     align-items: center;
 }
 
+
 @media screen and (min-width: 768px) {
     .inicio__input{
         width: 60%;
     }
     .cabecera__header{
         justify-content: start;
+        padding-top: 1.5rem;
     }
     .cabecera__logo{
         margin-right: 4rem;
